@@ -1,0 +1,25 @@
+*{
+   margin: 0;
+   outline: none;
+   box-sizing: border-box;
+}
+
+
+body{
+   font-family: 'Courier New', Courier, monospace;
+}
+ 
+.wrapper{
+   position: relative;
+   height: 100vh;
+}
+
+header{
+   width: 70%;
+   border: 1px solid red;
+   margin: 0 auto;
+   display: flex;
+   flex-direction: row; /*by default this is row*/
+   justify-content: space-between;
+   align-items: center;
+}
