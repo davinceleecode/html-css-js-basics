@@ -35,5 +35,8 @@ npm install emmet  # Emmet is usually built into VS Code, but you can install it
 >(Spacing around elements to control layout and positioning.)
 ![CSS3 Box Model](guides/Margin.png)
 
+#### Have some fun with the frog 🐸
+>[(Spacing around elements to control layout and positioning.)](https://flexboxfroggy.com/)
+
 ## 🚀 Final Output
 Below is the final output when running the source code:
