@@ -40,5 +40,11 @@ npm install emmet  # Emmet is usually built into VS Code, but you can install it
 
 >[(CSS Flexbox Layout Guide📚)](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
 
+>[(Create in your own style🧵)](https://fontawesome.com/)
+
+>[(Test your code here🧪)](https://codepen.io/)
+
 ## 🚀 Final Output
 Below is the final output when running the source code:
+
+![Final output](Images/Images/finaloutput.png)
