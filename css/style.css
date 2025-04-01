@@ -105,7 +105,7 @@ ul li:hover .submenu{
 
 /* slider starts */
 #home{
-   height: 650px;
+   height: 850px;
    background-color: #ebebeb;
 }
 
@@ -173,3 +173,60 @@ ul li:hover .submenu{
    background-image: url(../Images/Images/plant5.jpg);   
 }  
  
+header .fa-bars{
+   font-size: 2rem;
+   cursor: pointer;
+   color: #333;
+   display: none;
+}
+
+@media (max-width:850px) {
+   .slider.active{
+      border-radius: 20px;
+   }
+
+   header .fa-bars{
+      display: block;
+      z-index: 1;
+   }
+   nav{
+      position: fixed;
+      height: 80%;
+      width: 70%;
+      top: -100%;
+      left: 0;
+      box-shadow: 0 1rem 2rem #333;
+      font-weight: bold;
+      background-color: white;
+      z-index: 1;
+      transition: all ease-in .4s;
+      /* border: 1px solid red; */
+   }
+
+nav ul{
+   width: 100%;
+   position: absolute;
+   padding-left: 0;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin: 4rem auto;
+}
+
+nav ul li{
+   margin: 1.5rem auto;
+}
+
+nav ul li a{
+   font-size: 1rem;
+}
+.submenu{
+   position: absolute;
+   left: 0;
+   width: 150px;
+}
+.nav-toggle{
+   top:0;
+}
+
+}

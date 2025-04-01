@@ -25,3 +25,14 @@ function addClass($event){
 IMAGES.forEach(image => {
     image.addEventListener('click', addClass);
 });
+
+
+// menu bar
+$('.menu-toggle .fa-bars').click(function(){
+    $('.fa-bars').click(function (){
+        $(this).toggleClass('fa-times');
+        $('nav').toggleClass('nav-toggle');
+    })
+    // $(this).toggleClass('fa-times');
+    // $('nav').toggleClass('nav-toggle');
+});
